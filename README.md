@@ -20,3 +20,4 @@
 ## 📸 Screenshots
 
 <img src='127.0.0.1_5500_index.html (1).png' width='600px' height='500px'>
+link: https://modest-boyd-a7a529.netlify.app/
