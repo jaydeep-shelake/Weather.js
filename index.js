@@ -1,5 +1,5 @@
 console.log('weather.js');
-;
+
 const searchBtn = document.getElementById('searchBtn');
 searchBtn.addEventListener('click',updateWeather)
 
