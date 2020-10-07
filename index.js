@@ -7,7 +7,7 @@ searchBtn.addEventListener('click',updateWeather)
 function updateWeather(){
  
     const searchInput = document.getElementById('search').value;
-    const url =`http://api.openweathermap.org/data/2.5/weather?q=${searchInput}&APPID=850ee855ff939fea8f88736ee056e1fb`;
+    const url =`https://api.openweathermap.org/data/2.5/weather?q=${searchInput}&APPID=850ee855ff939fea8f88736ee056e1fb`;
     document.getElementById('discription').innerHTML='<p>Loading...</p>';
     fetch(url)
     .then((res)=>{
